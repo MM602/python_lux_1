@@ -8,6 +8,7 @@ if 5 > 3:
 
 x = 5
 x = float(x)
+print(x)
 
 a = ("apple", "mango", "banana")
 print(type(a))
