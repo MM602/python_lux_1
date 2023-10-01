@@ -6,7 +6,5 @@ print(z)
 if 5 > 3:
     print("Five is greater than three")
 
-
-def myfunc():
-    global d
-    d ="coffee"
+x = 5
+x = float(x)
