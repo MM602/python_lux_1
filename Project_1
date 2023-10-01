@@ -12,3 +12,6 @@ print(x)
 
 a = ("apple", "mango", "banana")
 print(type(a))
+
+b = {"name" : "Wolf", "age" : 5}
+print(type(b))
