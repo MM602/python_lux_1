@@ -20,10 +20,6 @@ txt = "Good Morning Africa"
 c = txt[3:7]
 print(c)
 
-age = 5
-txt = "My name is wolf, and I am {}"
-print(txt.format(age))
-
 print(bool(0))
 
 animals = ("cats", "dogs", "wolves")
