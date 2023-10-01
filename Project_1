@@ -4,4 +4,9 @@ z = n + m
 print(z)
 
 if 5 > 3:
-print("Five is greater than three") 
+    print("Five is greater than three")
+
+
+def myfunc():
+    global d
+    d ="coffee"
