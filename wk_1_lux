@@ -1,5 +1,7 @@
 # 1. Data Collection & Exploration
 
+First, clearly define the problem and success metrics with Sprint stakeholders. Collect relevant customer data like demographics, account info, service usage, billing, etc. Explore data to identify trends and relationships between features and churn. Preprocess data by handling missing values, encoding categorical variables, and splitting them into train/test sets.
+
 import pandas as pd
 
 data = pd.read_csv('customer_churn_data.csv')
@@ -12,6 +14,8 @@ import matplotlib.pyplot as plt
 plt.hist(data['Age'])
 
 # 2. Data Preprocessing
+
+Try different ML algorithms like random forest, logistic regression, and SVM on the training data. Tune hyperparameters using grid search to optimize model performance. Evaluate models on the test set using metrics like AUC-ROC, precision, and recall. Select the best-performing model and understand the critical features driving churn through feature importance analysis.
 
 from sklearn.preprocessing import LabelEncoder
 
@@ -28,14 +32,21 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
 
 # 3. Model Training
 
+Once a suitable model is built, prepare for deployment to production by creating the necessary infrastructure and APIs. Monitor performance continuously by calculating metrics on new unseen data. Retrain the model periodically using fresh data.
+
 from sklearn.ensemble import RandomForestClassifier
 
 rf_model = RandomForestClassifier()
 rf_model.fit(X_train, y_train)
 
 # 4. Model Evaluation
+
+Create reports, dashboards, and visualizations to communicate insights from models to business teams. Provide recommendations to marketing and customer retention teams based on influential features.
+
 y_pred = rf_model.predict(X_test)
 
 from sklearn.metrics import confusion_matrix, classification_report
 print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
+
+Solicit feedback from stakeholders to improve the model. Iterate by trying new data, features, and algorithms. Thoroughly document the end-to-end modeling process. Share knowledge with teams through workshops.
