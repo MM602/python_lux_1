@@ -23,3 +23,12 @@ print(c)
 age = 5
 txt = "My name is wolf, and I am {}"
 print(txt.format(age))
+
+print(bool(0))
+
+animals = ("cats", "dogs", "wolves")
+if "wolves" in animals:
+    print("yes")
+
+if 4!=5 :
+    print("4 is less than 5")
