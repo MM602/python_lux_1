@@ -15,3 +15,11 @@ print(type(a))
 
 b = {"name" : "Wolf", "age" : 5}
 print(type(b))
+
+txt = "Good Morning Africa"
+c = txt[3:7]
+print(c)
+
+age = 5
+txt = "My name is wolf, and I am {}"
+print(txt.format(age))
