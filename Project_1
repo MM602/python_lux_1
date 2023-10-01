@@ -2,3 +2,6 @@ n = 10
 m = 5
 z = n + m
 print(z)
+
+if 5 > 3:
+print("Five is greater than three") 
