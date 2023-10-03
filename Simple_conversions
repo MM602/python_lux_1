@@ -17,3 +17,13 @@ conv_fac = 0.454
 #calculate kilograms
 kilograms = pounds * conv_fac
 print('%0.3f pounds is equal to %0.3f kilograms' %(pounds,kilograms))
+
+#Converting grams to ounces
+grams = float(input("enter value in grams"))
+
+#Conversion factor
+conv_fac = 0.0353
+
+#calculation of ounces
+ounces = grams * conv_fac
+print('%0.4f grams is equal to %0.4f ounces' %(grams,ounces))
