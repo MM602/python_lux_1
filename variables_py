@@ -11,4 +11,4 @@ print(f"Hello, {name}")
 #split user's first and last name
 first, last = name.split(" ")
 
-print(f"Hello, {name}")
+print(f"Hello, {first}")
