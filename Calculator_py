@@ -4,17 +4,20 @@ y = input("Enter the value of y ")
 z = int(x) + int(y)
 print(z)
 
+
 #nesting the functions
 x = int(input("Enter the value of x"))
 y = int(input("Enter the value of y"))
 
 print("Your answer is",x + y)
 
+
 #using floats
 x = float(input("Enter the value of x"))
 y = float(input("Enter the value of y"))
 
 print("Your answer is",x + y)
+
 
 #Round floats to the nearest whole number
 x = float(input("Enter the value of x"))
@@ -24,10 +27,20 @@ z = round(x + y)
 
 print("Your answer is",z)
 
+
 #Adding Separators
 x = float(input("Enter the value of x"))
 y = float(input("Enter the value of y"))
 
 z = round(x + y)
+
+print("Your answer is",(f"{z:,}"))
+
+
+#Rounding to specific number of decimal points
+x = float(input("Enter the value of x"))
+y = float(input("Enter the value of y"))
+
+z = round(x / y, 2)
 
 print("Your answer is",(f"{z:,}"))
