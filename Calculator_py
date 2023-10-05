@@ -43,4 +43,13 @@ y = float(input("Enter the value of y"))
 
 z = round(x / y, 2)
 
-print("Your answer is",(f"{z:,}"))
+print("Your answer is",z)
+
+
+#Another way of rounding off
+x = float(input("Enter the value of x"))
+y = float(input("Enter the value of y"))
+
+z = x / y
+
+print("Your answer is",(f"{z:.2f}"))
