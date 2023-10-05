@@ -1,0 +1,5 @@
+x = input("Enter the value of x ")
+y = input("Enter the value of y ")
+
+z = int(x) + int(y)
+print(z)
