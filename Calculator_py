@@ -23,3 +23,11 @@ y = float(input("Enter the value of y"))
 z = round(x + y)
 
 print("Your answer is",z)
+
+#Adding Separators
+x = float(input("Enter the value of x"))
+y = float(input("Enter the value of y"))
+
+z = round(x + y)
+
+print("Your answer is",(f"{z:,}"))
