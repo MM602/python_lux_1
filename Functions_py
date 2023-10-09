@@ -4,3 +4,10 @@ def hello():
 name = input("What is your name? ")
 hello()
 print(name)
+
+#parametarise the code
+def hello(to):
+    print("hello,", to)
+
+name = input("What is your name? ")
+hello(name)
