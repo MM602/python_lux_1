@@ -8,3 +8,9 @@ k = 0
 while k < 5:
     print("wolf")
     k = k + 1
+
+#the seconf can also be written as
+k = 0
+while k < 5:
+    print("wolf")
+    k += 1
