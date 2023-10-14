@@ -22,3 +22,14 @@ if name == "Kelvin":
     print("Etihad")
 else:
     print("Name not identified")
+
+#Using Match
+name = input("Enter your name")
+
+match name:
+    case "Haaland" | "Jack":
+        print("Etihad")
+    case "Anthony":
+        print("Trafford")
+    case _:
+        print("Name not identified")
