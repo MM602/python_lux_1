@@ -41,3 +41,13 @@ while True:
 
 for _ in range(t):
     print("wolf")
+
+#defining the wolf function
+def main():
+    wolf(5)
+
+def wolf(p):
+    for _ in range(p):
+        print("wolf")
+
+main()
