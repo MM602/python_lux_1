@@ -18,3 +18,7 @@ while k < 5:
 #Rewriting the code using the "for" loop
 for k in [0, 1, 2, 3, 4]:
     print("wolf")
+
+#Using the range function
+for k in range(5):
+    print("wolf")
