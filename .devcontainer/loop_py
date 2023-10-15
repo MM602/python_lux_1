@@ -32,3 +32,12 @@ print("wolf\n" * 5)
 
 #Removing the "enter" character at the bottom of the code
 print("wolf\n" * 5, end = "")
+
+#Requesting for the input value from the user
+while True:
+    t = int(input("Enter the value of t:"))
+    if t > 0:
+        break
+
+for _ in range(t):
+    print("wolf")
