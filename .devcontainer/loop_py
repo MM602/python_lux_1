@@ -14,3 +14,7 @@ k = 0
 while k < 5:
     print("wolf")
     k += 1
+
+#Rewriting the code using the "for" loop
+for k in [0, 1, 2, 3, 4]:
+    print("wolf")
