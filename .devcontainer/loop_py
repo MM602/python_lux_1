@@ -26,3 +26,9 @@ for k in range(5):
 #Using an unnamed variable
 for _ in range(5):
     print("wolf")
+
+#Using a simpler formart and a "\n" to enter another line
+print("wolf\n" * 3)
+
+#Removing the "enter" character at the bottom of the code
+print("wolf\n" * 3, end = "")
