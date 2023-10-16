@@ -1,0 +1,9 @@
+students = {
+    "Thomas": "Dekut",
+    "Simon": "Dekut",
+    "Joseph": "Kyu",
+    "Moses": "Mku",
+}
+
+for student in students:
+    print(student, students[student], sep=": ")
