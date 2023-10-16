@@ -5,5 +5,5 @@ students = {
     "Moses": "Mku",
 }
 
-for student in students:
-    print(student, students[student], sep=": ")
+for _ in students:
+    print(_, students[_], sep=": ")
