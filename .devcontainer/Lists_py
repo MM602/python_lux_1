@@ -8,3 +8,9 @@ students = ["Thomas", "Simon", "Joseph", "Moses"]
 
 for student in students:
     print(student)
+
+#Using the length variable
+students = ["Thomas", "Simon", "Joseph", "Moses"]
+
+for k in range(len(students)):
+    print(students[k])
