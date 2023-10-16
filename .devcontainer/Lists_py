@@ -1,0 +1,4 @@
+students = ["Thomas", "Simon", "Joseph", "Moses"]
+
+for _ in students:
+    print(_)
