@@ -51,3 +51,20 @@ def wolf(p):
         print("wolf")
 
 main()
+
+#Addinng another function to get number from user
+def main():
+    number = get_number()
+    wolf(number)
+
+def get_number():
+    while True:
+        p = int(input("Enter the value of p"))
+        if p > 0:
+            return p
+
+def wolf(p):
+    for _ in range(p):
+        print("wolf")
+
+main()
