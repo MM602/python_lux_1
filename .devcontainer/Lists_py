@@ -14,3 +14,9 @@ students = ["Thomas", "Simon", "Joseph", "Moses"]
 
 for k in range(len(students)):
     print(students[k])
+
+#Numbering in order of student's names
+students = ["Thomas", "Simon", "Joseph", "Moses"]
+
+for k in range(len(students)):
+    print(k + 1, students[k])
