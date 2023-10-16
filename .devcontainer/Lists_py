@@ -2,3 +2,9 @@ students = ["Thomas", "Simon", "Joseph", "Moses"]
 
 for _ in students:
     print(_)
+
+#The above can also be written as
+students = ["Thomas", "Simon", "Joseph", "Moses"]
+
+for student in students:
+    print(student)
