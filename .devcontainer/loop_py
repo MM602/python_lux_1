@@ -77,3 +77,15 @@ def print_row(width):
     print("wolf" * width)
 
 main()
+
+#Printing a Square using python
+def main():
+    print_square(4)
+
+def print_square(size):
+    for a in range(size):
+        for b in range(size):
+            print("#Q", end="")
+        print()
+
+main()
