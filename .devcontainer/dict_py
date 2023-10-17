@@ -7,3 +7,14 @@ students = {
 
 for _ in students:
     print(_, students[_], sep=": ")
+
+#A dictionary with many keys and values
+students = [
+    {"name": "Thomas", "institution": "Dekut", "home": "Kenya"},
+    {"name": "Simon", "institution": "Dekut", "home": "Kenya"},
+    {"name": "Joseph", "institution": "Kyu", "home": "Kenya"},
+    {"name": "Moses", "institution": "Mku", "home": None}
+]
+
+for _ in students:
+    print(_["name"], _["institution"], _["home"], sep=': ')
