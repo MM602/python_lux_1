@@ -89,3 +89,13 @@ def print_square(size):
         print()
 
 main()
+
+#Simplifying the code
+def main():
+    print_square(4)
+
+def print_square(size):
+    for a in range(size):
+        print("#Q" * size)
+
+main()
