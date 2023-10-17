@@ -68,3 +68,12 @@ def wolf(p):
         print("wolf")
 
 main()
+
+#Writing in rows
+def main():
+    print_row(4)
+
+def print_row(width):
+    print("wolf" * width)
+
+main()
