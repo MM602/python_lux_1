@@ -3,3 +3,14 @@ try:
     print(f"x is {x}")
 except ValueError:
     print("x is not a number")
+
+#Integrating the loop function in the code
+while True:
+    try:
+        x = int(input("Enter the value of x:"))
+    except ValueError:
+        print("x is not a number")
+    else:
+        break
+
+print(f"x is {x}")
