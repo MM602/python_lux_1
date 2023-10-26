@@ -22,3 +22,9 @@ cards = ["Ace of spades", "queen of spades", "ace of hearts", "king of diamonds"
 random.shuffle(cards)
 for _ in cards:
     print(_)
+
+
+#Using the statistics module in random
+import statistics
+
+print(statistics.mean([69, 57, 32, 29, 27, 25, 22]))
