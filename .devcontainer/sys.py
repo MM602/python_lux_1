@@ -29,3 +29,12 @@ elif len(sys.argv) > 2:
     sys.exit("Too many characters")
 
 print("Hello, my name is", sys.argv[1])
+
+#Using the slice element
+import sys
+
+if len(sys.argv) < 2:
+    sys.exit("Too few characters")
+
+for arg in sys.argv[1:]:
+    print("Hello, my name is", arg)
