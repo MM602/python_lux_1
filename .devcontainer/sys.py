@@ -19,3 +19,13 @@ elif len(sys.argv) > 2:
     print("Too many characters")
 else:
     print("My name is", sys.argv[1])
+
+#To ensure it exits after it's successful 
+import sys
+
+if len(sys.argv) < 2:
+    sys.exit("Too few characters")
+elif len(sys.argv) > 2:
+    sys.exit("Too many characters")
+
+print("Hello, my name is", sys.argv[1])
