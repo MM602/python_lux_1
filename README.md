@@ -264,4 +264,3 @@ To ensure the solution meets enterprise-grade reliability standards, I set up:
 
 This implements monitoring via Azure Monitor, alerting for failures, automated re-tries, a fallback data source, CI/CD, and premium support to ensure a reliable enterprise-grade solution.
 In conclusion, this data pipeline enables reliable and secure ingestion of weather data from an API source into Azure Synapse Analytics. The transformed data is ready to be consumed via Power BI to build an insightful weather analytics dashboard for Data Science East Africa. The project demonstrates how Azure's services can be leveraged to move data from external sources into actionable business insights efficiently.
-
